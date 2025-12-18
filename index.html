@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>LoGames - Free Games Platform</title>
+  <link rel="icon" href="./I/LoGamesFavicon.png">
+  <link rel="stylesheet" href="root.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+
+  <div id="banner">
+    <p>Go Back To <a href="https://loganstoolsforschool.w3spaces.com">LTFS</a></p>
+  </div>
+
+  <header>
+    <img width="300px" src="./I/LoGames.png" alt="LoGames Logo">
+    <input id="search" type="text" placeholder="Search games..." />
+  </header>
+
+  <main>
+    <section>
+      <h2>🔥 All Games</h2>
+      <div class="games" id="hot-games">
+        <!-- Add your games here -->
+        <div class="game-card" style="background-image: url('./I/bikextreme.png');">
+          <h3>Bike XTreme</h3>  <!-- Title above description --><br>
+          <p>kewl bike game</p>
+          <a class="play-btn" href="/Bike-Xtreme/">Play</a>
+        </div>
+        <div class="game-card" style="background-image: url('./I/2v2io.jpg');">
+          <h3>2v2.IO</h3>  <!-- Title above description --> <br>
+          <p>just fornite lol</p>
+          <a class="play-btn" href="/2v2-IO/">Play</a>
+        </div>
+        <div class="game-card" style="background-image: url('./I/PPG.png');">
+          <h3>People Playground</h3>  <!-- Title above description --> <br>
+          <p>fun sandbox</p>
+          <a class="play-btn" href="/PeopleGround/">Play</a>
+        </div>
+        <div class="game-card" style="background-image: url('./I/images_21_.jpeg');">
+          <h3>BitLife</h3>  <!-- Title above description --> <br>
+          <p>life sim</p>
+          <a class="play-btn" href="/Bit/">Play</a>
+        </div>
+        <div class="game-card" style="background-image: url('./I/curverush.png');">
+          <h3>Curve Rush</h3>  <!-- Title above description --> <br>
+          <p>the game that i suhh at</p>
+          <a class="play-btn" href="/CurveRush/">Play</a>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h2>⭐ Recommended Games</h2>
+      <div class="games" id="recommended-games">
+        <!-- Add your games here -->
+         <div class="game-card" style="background-image: url('./I/bikextreme.png');">
+          <h3>Bike XTreme</h3>  <!-- Title above description --><br>
+          <p>kewl bike game</p>
+          <a class="play-btn" href="/Bike-Xtreme/">Play</a>
+        </div>
+        <div class="game-card" style="background-image: url('./I/2v2io.jpg');">
+          <h3>2v2.IO</h3>  <!-- Title above description --> <br>
+          <p>just fornite lol</p>
+          <a class="play-btn" href="/2v2-IO/">Play</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    © 2025 LoGames — Free Games Platform
+  </footer>
+  <div id="promo-banner">
+Go back to <a href="https://loganstoolsforschool.w3spaces.com">LTFS</a>
+  </div>
+  <script src="script.js"></script>
+
+</body>
+</html>
+<script>
+      // Check if the URL contains '?from=ltfs'
+    const urlParams = new URLSearchParams(window.location.search);
+    if (urlParams.has('from') && urlParams.get('from') === 'ltfs') {
+      // Show the banner
+      document.getElementById('promo-banner').style.display = 'block';
+    }
+
+</script>
