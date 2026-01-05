@@ -1,3 +1,10 @@
+    :root{
+      --green-1:#b7e4c7;
+      --green-2:#5a9e67;
+      --green-3:#3c6e40;
+      --panel:#ffffff;
+      --panel-2:#e3f3e8;
+    }
 /* General Reset */
     #promo-banner {
       background-color: #f8d7da;
@@ -16,6 +23,23 @@
       font-weight: bold;
       text-decoration: underline;
     }
+        #game-banner {
+      background-color: #8cb481;
+      color: #13500d;
+      padding: 10px;
+      text-align: center;
+      font-size: 16px;
+      display: block; /* Initially Shown */
+      position: fixed;
+      top: 0;
+      width: 100%;
+      z-index: 1000;
+    }
+    #game-banner a {
+      color: #205e0c;
+      font-weight: bold;
+      text-decoration: underline;
+    }
 * {
   margin: 0;
   padding: 0;
@@ -23,13 +47,13 @@
 }
 
 body {
-  background: #0d0f14;
+  background: var(--green-1);
   color: #fff;
   font-family: Arial, Helvetica, sans-serif;
 }
 
 header {
-  background: #151821;
+  background: var(--green-3);
   padding: 20px;
   display: flex;
   justify-content: space-between;
@@ -60,7 +84,7 @@ section {
 }
 
 section h2 {
-  color: #4da3ff;
+  color: var(--green-3);
   margin-bottom: 15px;
 }
 

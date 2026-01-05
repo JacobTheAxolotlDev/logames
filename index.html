@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>LoGames - Free Games Platform</title>
+  <title>LoGames (science homework) </title>
   <link rel="icon" href="./I/LoGamesFavicon.png">
   <link rel="stylesheet" href="root.css">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -20,17 +20,22 @@
 
   <main>
     <section>
-      <h2>🔥 All Games</h2>
+      <h2>All Games</h2>
       <div class="games" id="hot-games">
         <!-- Add your games here -->
         <div class="game-card" style="background-image: url('./I/bikextreme.png');">
           <h3>Bike XTreme</h3>  <!-- Title above description --><br>
-          <p>kewl bike game</p>
+          <p style="color: black;">kewl bike game</p>
           <a class="play-btn" href="/Bike-Xtreme/">Play</a>
         </div>
+        <div class="game-card" style="background-image: url('./I/unnamed_4_.png');">
+          <h3>Poor Bunny</h3>  <!-- Title above description --><br>
+          <p style="color: black;">#1 most stolen game of all time lol</p>
+          <a class="play-btn" href="/PoorBunny/">Play</a>
+        </div>
         <div class="game-card" style="background-image: url('./I/2v2io.jpg');">
-          <h3>2v2.IO</h3>  <!-- Title above description --> <br>
-          <p>just fornite lol</p>
+          <h3 style="color: black;">2v2.IO</h3>  <!-- Title above description --> <br>
+          <p style="color: black;">just fornite lol</p>
           <a class="play-btn" href="/2v2-IO/">Play</a>
         </div>
         <div class="game-card" style="background-image: url('./I/PPG.png');">
@@ -52,17 +57,17 @@
     </section>
 
     <section>
-      <h2>⭐ Recommended Games</h2>
+      <h2>Recommended Games (only two i dont update this) </h2>
       <div class="games" id="recommended-games">
         <!-- Add your games here -->
          <div class="game-card" style="background-image: url('./I/bikextreme.png');">
           <h3>Bike XTreme</h3>  <!-- Title above description --><br>
-          <p>kewl bike game</p>
+          <p style="color: black;">kewl bike game</p>
           <a class="play-btn" href="/Bike-Xtreme/">Play</a>
         </div>
         <div class="game-card" style="background-image: url('./I/2v2io.jpg');">
-          <h3>2v2.IO</h3>  <!-- Title above description --> <br>
-          <p>just fornite lol</p>
+          <h3 style="color: black;">2v2.IO</h3>  <!-- Title above description --> <br>
+          <p style="color: black; font-weight: bold;">just fornite lol</p>
           <a class="play-btn" href="/2v2-IO/">Play</a>
         </div>
       </div>
@@ -75,6 +80,9 @@
   <div id="promo-banner">
 Go back to <a href="https://loganstoolsforschool.w3spaces.com">LTFS</a>
   </div>
+    <div id="game-banner">
+Request Games <a href="https://forms.gle/SEVe7rb3jSgKo3sQ8">Here</a>
+  </div>
   <script src="script.js"></script>
 
 </body>
@@ -85,6 +93,8 @@ Go back to <a href="https://loganstoolsforschool.w3spaces.com">LTFS</a>
     if (urlParams.has('from') && urlParams.get('from') === 'ltfs') {
       // Show the banner
       document.getElementById('promo-banner').style.display = 'block';
+      document.getElementById('game-banner').style.display = 'none';
     }
+
 
 </script>
