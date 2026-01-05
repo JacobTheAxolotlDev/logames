@@ -160,3 +160,28 @@ footer {
   color: #721c24;
   text-decoration: underline;
 }
+
+.github-button {
+  display: inline-flex;
+  align-items: center;
+  padding: 2px 4px;
+  background-color: #24292f; /* GitHub dark gray */
+  color: #ffffff;
+  font-size: 8px;
+  font-weight: bold;
+  border-radius: 3px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+  border: 1px solid transparent;
+}
+
+.github-button i {
+  margin-right: 0px;
+  font-size: 10px; /* Adjust icon size */
+}
+
+/* Hover effect */
+.github-button:hover {
+  background-color: #363636; /* Slightly lighter gray */
+  border-color: #6e7681; /* Border turns to lighter gray on hover */
+}
